@@ -1,0 +1,26 @@
+<form action="criar.php" method="post">
+        <label for="nome">Nome: </label>
+        <input type="text" name="nome" id="nome" placeholder="Insira o nome" required>
+        <br>
+        <label for="email">E-mail: </label>
+        <input type="text" name="email" id="email" placeholder="Insira o e-mail" required>
+        <br>
+        <label for="telefone">Telefone: </label>
+        <input type="text" name="telefone" id="telefone" placeholder="Insira o telefone" required>
+        <br>
+        <label for="cpf">CPF: </label>
+        <input type="number" name="cpf" id="cpf" placeholder="Insira o CPF" required>
+        <br>
+        <label for="endereco">Endereço: </label>
+        <input type="text" name="endereco" id="endereco" placeholder="Insira o endereço" required>
+        <br>
+        <input type="submit" value="Adicionar Cadastro">
+    </form>
+
+    <a class="btn btn-primary" href="cliente/listar.php" role="button">Clientes</a>
+
+    <a class="btn btn-primary" href="Exercicio/listar.php" role="button">Exercícios</a>
+
+    <a class="btn btn-primary" href="Treino/listar.php" role="button">Treino</a>
+
+    <a class="btn btn-primary" href="Categoria_Exercicio/listar.php" role="button">Categoria Exercícios</a>
