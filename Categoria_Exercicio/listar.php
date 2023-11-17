@@ -41,8 +41,8 @@
       <tr>
         <th scope="col">ID</th>
         <th scope="col">Nome</th>
-        <th scope="col">Criado em</th>
-        <th scope="col">Atualizado em</th>
+        <th scope="col">Data de criação</th>
+        <th scope="col">Última atualização</th>
       </tr>
     </thead>
     <tbody>
