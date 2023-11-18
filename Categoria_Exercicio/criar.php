@@ -80,7 +80,7 @@
 
 
     $sql_categoria =
-      "INSERT INTO Categoria_exercicio 
+       "INSERT INTO Categoria_exercicio 
           (nome)
         VALUES
           ('$nome')";
